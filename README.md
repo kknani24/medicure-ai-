@@ -85,7 +85,7 @@ graph TD
     H --> I[Gemini AI Analysis]
     I --> J[Generate PDF Report]
     J --> K[Return Results]
-    
+ ```   
     L[YOLO Models] --> M[Liver Model - liver_tumour.pt]
     L --> N[Brain Model - brain_mri.pt]
     L --> O[Eye Model - eye.pt]
@@ -244,19 +244,16 @@ YOLO is a state-of-the-art real-time object detection system. In this project, w
 Google's Gemini AI provides advanced multimodal understanding capabilities. In our system, it analyzes medical images alongside detection results to generate professional medical insights, treatment recommendations, and diagnostic interpretations with the expertise of a seasoned clinician.
 
 ### Flask
-<img src="https://flask.palletsprojects.com/en/2.3.x/_images/flask-horizontal.png" alt="Flask" width="400"/>
+<img src="https://miro.medium.com/v2/resize:fit:640/format:webp/1*0G5zu7CnXdMT9pGbYUTQLQ.png" width="400"/>
 
 Flask serves as the web framework powering our medical analysis platform. Its lightweight nature and extensive ecosystem make it perfect for creating responsive web applications that can handle medical image processing workflows efficiently.
 
 ### OpenCV
-<img src="https://opencv.org/wp-content/uploads/2022/05/logo.png" alt="OpenCV" width="400"/>
+<img src="https://opencv.org/wp-content/uploads/2020/07/OpenCV_logo_black-2.png" width="400"/>
 
 OpenCV handles all computer vision operations including image loading, processing, visualization, and pseudo-coloring. Its optimized algorithms ensure fast image manipulation and enhancement, crucial for real-time medical image analysis.
 
-### ReportLab
-<img src="https://www.reportlab.com/media/reportlab-logo.png" alt="ReportLab" width="400"/>
 
-ReportLab generates professional PDF reports containing analysis results, medical insights, and visualizations. This ensures proper documentation for clinical records and enables seamless integration with existing healthcare information systems.
 
 ## Code Structure
 
@@ -333,6 +330,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-**© 2024 MediCure-AI. All rights reserved.**
+**© 2025 MediCure-AI. All rights reserved.**
 
 For questions, support, or collaboration opportunities, please open an issue or contact the development team.
