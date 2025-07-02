@@ -7,6 +7,10 @@ from ultralytics import YOLO
 import google.generativeai as genai
 from reportlab.lib.pagesizes import letter
 from reportlab.pdfgen import canvas
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -38,7 +42,7 @@ MODELS = {
         'classes': ["stone"]
     },
     'lung': {
-        'path': r'C:\Users\Victus\Desktop\capstone\lung cancer.pt',  # Changed to relative path
+        'path': r'C:\Users\Victus\Desktop\capstone\lung cancer.pt',  # Consider making this relative too
         'classes': ["Tumour"]
     }
 }
@@ -46,8 +50,11 @@ MODELS = {
 # Load all models
 models = {name: YOLO(config['path']) for name, config in MODELS.items()}
 
-# Configure Google Gemini API with direct key
-API_KEY = ""
+# Configure Google Gemini API with key from environment
+API_KEY = os.getenv('GEMINI_API_KEY')
+if not API_KEY:
+    raise ValueError("GEMINI_API_KEY not found in environment variables. Please check your .env file.")
+
 genai.configure(api_key=API_KEY)
 gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 
