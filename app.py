@@ -42,7 +42,7 @@ MODELS = {
         'classes': ["stone"]
     },
     'lung': {
-        'path': r'C:\Users\Victus\Desktop\capstone\lung cancer.pt',  # Consider making this relative too
+        'path': 'lung cancer.pt',  # Consider making this relative too
         'classes': ["Tumour"]
     }
 }
