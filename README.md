@@ -5,12 +5,16 @@
 
 ![Python](https://img.shields.io/badge/python-%2338BDF8.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![Werkzeug](https://img.shields.io/badge/werkzeug-%23F05033.svg?style=for-the-badge&logo=werkzeug&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO-%23FF6F00.svg?style=for-the-badge&logo=yolo&logoColor=white)
 ![Google AI](https://img.shields.io/badge/Google%20AI-%234285F4.svg?style=for-the-badge&logo=google&logoColor=white)
 ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
 ![Machine Learning](https://img.shields.io/badge/machine%20learning-%2300BFFF.svg?style=for-the-badge&logo=machine-learning&logoColor=white)
 ![Deep Learning](https://img.shields.io/badge/deep%20learning-%2333CCFF.svg?style=for-the-badge&logo=deep-learning&logoColor=white)
+![ReportLab](https://img.shields.io/badge/reportlab-%23FF6F00.svg?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)
+![Dotenv](https://img.shields.io/badge/dotenv-%230077B6.svg?style=for-the-badge&logo=dotenv&logoColor=white)
+
 
 This project implements a cutting-edge AI-powered medical image analysis system that leverages multiple YOLO models and Google's Gemini AI to detect various medical conditions from radiological images. The system provides real-time analysis, detailed reports, and professional medical insights for liver, brain, eye, kidney, and lung conditions.
 
@@ -86,17 +90,15 @@ graph TD
     I --> J[Generate PDF Report]
     J --> K[Return Results]
 
-
-
-
-
-    L[YOLO Models] --> M[Liver Model - liver_tumour.pt]
+```
+### Model Inventory
+```mermaid
+L[YOLO Models] --> M[Liver Model - liver_tumour.pt]
     L --> N[Brain Model - brain_mri.pt]
     L --> O[Eye Model - eye.pt]
     L --> P[Kidney Model - kidney.pt]
     L --> Q[Lung Model - lung cancer.pt]
 ```
-
 ### Key Components
 - **Image Upload & Validation**: Secure file handling with format verification
 - **Multi-Model Detection**: Parallel processing across specialized YOLO models
