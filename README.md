@@ -16,7 +16,7 @@
 ![Dotenv](https://img.shields.io/badge/dotenv-%230077B6.svg?style=for-the-badge&logo=dotenv&logoColor=white)
 
 
-This project implements a cutting-edge AI-powered medical image analysis system that leverages multiple YOLO models and Google's Gemini AI to detect various medical conditions from radiological images. The system provides real-time analysis, detailed reports, and professional medical insights for liver, brain, eye, kidney, and lung conditions.
+This project implements a cutting-edge AI-powered medical image analysis system that leverages multiple fine tuned  YOLO Nano segmentation model and Google's Gemini AI to detect various medical conditions from radiological images. The system provides real-time analysis, detailed reports, and professional medical insights for liver, brain, eye, kidney, and lung conditions.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -34,7 +34,7 @@ This project implements a cutting-edge AI-powered medical image analysis system 
 
 ## Introduction
 
-MediCure-AI revolutionizes medical imaging with AI-powered diagnostic precision. Our system combines state-of-the-art YOLO object detection models with Google's Gemini AI to provide comprehensive analysis of medical scans including CT, MRI, X-ray, and ultrasound images. The platform is designed to assist healthcare professionals in making faster, more accurate diagnoses while generating detailed PDF reports for clinical documentation.
+MediCure-AI revolutionizes medical imaging with AI-powered diagnostic precision. Our system combines state-of-the-art fine tuned  YOLO Nano segmentation model with Google's Gemini AI to provide comprehensive analysis of medical scans including CT, MRI, X-ray, and ultrasound images. The platform is designed to assist healthcare professionals in making faster, more accurate diagnoses while generating detailed PDF reports for clinical documentation.
 
 ## Features
 
@@ -243,7 +243,7 @@ Analyzes uploaded medical images and returns detection results.
 ## Technologies Used
 
 ### YOLO (You Only Look Once)
-<img src="https://github.com/ultralytics/assets/raw/main/yolov8/banner-yolov8.png" alt="YOLO" width="400"/>
+<img src="https://cdn.prod.website-files.com/680a070c3b99253410dd3df5/680a070c3b99253410dd4791_67ed5670d7ecbda0527fe8b3_66f680814693dd5c3b60dfcb_YOLO11_Thumbnail.png" width="400"/>
 
 YOLO is a state-of-the-art real-time object detection system. In this project, we use specialized YOLO models trained on medical datasets for accurate detection of various pathological conditions. The models provide fast inference with high accuracy, making them ideal for clinical applications.
 
