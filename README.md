@@ -85,7 +85,7 @@ graph TD
     H --> I[Gemini AI Analysis]
     I --> J[Generate PDF Report]
     J --> K[Return Results]
- ```   
+ 
     L[YOLO Models] --> M[Liver Model - liver_tumour.pt]
     L --> N[Brain Model - brain_mri.pt]
     L --> O[Eye Model - eye.pt]
