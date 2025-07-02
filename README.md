@@ -93,11 +93,14 @@ graph TD
 ```
 ### Model Inventory
 ```mermaid
-L[YOLO Models] --> M[Liver Model - liver_tumour.pt]
+graph TD
+    L[YOLO Models]
+    L --> M[Liver Model - liver_tumour.pt]
     L --> N[Brain Model - brain_mri.pt]
     L --> O[Eye Model - eye.pt]
     L --> P[Kidney Model - kidney.pt]
     L --> Q[Lung Model - lung cancer.pt]
+
 ```
 ### Key Components
 - **Image Upload & Validation**: Secure file handling with format verification
