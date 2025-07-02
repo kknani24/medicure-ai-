@@ -1,8 +1,4 @@
 # MediCure-AI: Advanced Medical Image Analysis System
-
-![127 0 0 1_5000_](https://github.com/user-attachments/assets/7e77f204-8bd5-4109-b3cd-09f59a0416f8)
-
-
 ![Python](https://img.shields.io/badge/python-%2338BDF8.svg?style=for-the-badge&logo=python&logoColor=white)
 ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 ![Werkzeug](https://img.shields.io/badge/werkzeug-%23F05033.svg?style=for-the-badge&logo=werkzeug&logoColor=white)
@@ -17,6 +13,10 @@
 
 
 This project implements a cutting-edge AI-powered medical image analysis system that leverages multiple fine tuned  YOLO Nano segmentation model and Google's Gemini AI to detect various medical conditions from radiological images. The system provides real-time analysis, detailed reports, and professional medical insights for liver, brain, eye, kidney, and lung conditions.
+![127 0 0 1_5000_](https://github.com/user-attachments/assets/7e77f204-8bd5-4109-b3cd-09f59a0416f8)
+
+
+
 
 ## Table of Contents
 - [Introduction](#introduction)
